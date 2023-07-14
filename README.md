@@ -1,6 +1,6 @@
 # BITE: Textual Backdoor Attacks with Iterative Trigger Injection
 
-This repo contains the code for paper [*BITE: Textual Backdoor Attacks with Iterative Trigger Injection*](https://arxiv.org/abs/2205.12700).
+This repo contains the code for paper [*BITE: Textual Backdoor Attacks with Iterative Trigger Injection*](https://arxiv.org/abs/2205.12700), accepted to ACL 2023.
 
 # 1. Preparation
 
@@ -139,9 +139,16 @@ python run_poison_bert.py --bert_type <BERT_TYPE> --dataset <DATASET> --poison_s
 ## Citation
 
 ```bibtex
-@article{yan2022textual,
-  title={BITE: Textual Backdoor Attacks with Iterative Trigger Injection},
-  author={Yan, Jun and Gupta, Vansh and Ren, Xiang},
-  journal={arXiv preprint arXiv:2205.12700},
-  year={2022}
+@inproceedings{yan-etal-2023-bite,
+    title = "{BITE}: Textual Backdoor Attacks with Iterative Trigger Injection",
+    author = "Yan, Jun  and
+      Gupta, Vansh  and
+      Ren, Xiang",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.725",
+    pages = "12951--12968",
 }
